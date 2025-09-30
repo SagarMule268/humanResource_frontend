@@ -34,7 +34,7 @@ const View = () => {
           <div className="flex justify-center md:justify-start">
             <img
               className="rounded-xl border-2 border-gray-700 w-40 h-40 object-cover"
-              src={`http://localhost:5000/uploads/${employee?.userId?.profileImage}`}
+              src={`${employee?.userId?.profileImage}`}
               alt="Profile"
             />
           </div>
