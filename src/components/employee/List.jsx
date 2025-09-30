@@ -29,7 +29,7 @@ const List = () => {
               <img
                 className='rounded-4xl'
                 width={"100px"}
-                src={`http://localhost:5000/uploads/${emp.userId.profileImage}`}
+                src={`${emp.userId.profileImage}`}
                 alt={emp.userId.name}
               />
             ),
