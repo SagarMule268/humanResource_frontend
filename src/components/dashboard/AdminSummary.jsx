@@ -40,10 +40,10 @@ const AdminSummary = () => {
       <div className="mt-12">
         <h1 className="text-center text-2xl font-bold text-white">Leave Details</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-          <SummaryCard icon={<FaUsers />} title="Leave Applied" figure={summary.leaveSummary.appliedForLeave.length} color="bg-teal-600" />
-          <SummaryCard icon={<FaBuilding />} title="Leave Approved" figure={summary.leaveSummary.approved} color="bg-yellow-600" />
-          <SummaryCard icon={<FaUsers />} title="Leave Pending" figure={summary.leaveSummary.pending} color="bg-red-600" />
-          <SummaryCard icon={<FaUsers />} title="Leave Rejected" figure={summary.leaveSummary.rejected} color="bg-red-600" />
+          <SummaryCard icon={<FaCalendarAlt />} title="Leave Applied" figure={summary.leaveSummary.appliedForLeave.length} color="bg-teal-600" />
+          <SummaryCard icon={<FaCalendarAlt />} title="Leave Approved" figure={summary.leaveSummary.approved} color="bg-yellow-600" />
+          <SummaryCard icon={<FaTachometerAlt />} title="Leave Pending" figure={summary.leaveSummary.pending} color="bg-red-600" />
+          <SummaryCard icon={<FaCalendarAlt />} title="Leave Rejected" figure={summary.leaveSummary.rejected} color="bg-red-600" />
         </div>
       </div>
     </div>
